@@ -17,7 +17,7 @@ class createDrop{
     }
 
     showDrop(){
-        fill("Blue")
+        fill("lightblue")
         ellipseMode(CENTER);
         ellipse(this.rain.position.x,this.rain.position.y,this.radius,this.radius);
     }
